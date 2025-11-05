@@ -1,4 +1,6 @@
-# SOC Prediction – API, Streamlit App, and MQTT Demo
+# battery-soc-ml
+
+SOC Prediction – API, Streamlit App, and MQTT Demo
 
 This project predicts a battery's future State of Charge (SOC) using time-series data from lithium‑ion cells (NASA dataset files `B0005.mat`, `B0006.mat`, `B0018.mat`). It provides:
 - A FastAPI REST service for SOC prediction
