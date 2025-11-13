@@ -22,8 +22,13 @@ services:
     container_name: soc_app
     ports:
       - "8501:8501"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data:ro
     environment:
       - API_URL=http://api:8000
+      - DATA_DIR=/app/data
+      - ARTIFACTS_DIR=/app/artifacts
     depends_on:
       - api
 
