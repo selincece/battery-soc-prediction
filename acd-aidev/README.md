@@ -148,6 +148,3 @@ Example publish:
 - HIL model training requires sufficient data (at least one cycle)
 - Anomaly detection threshold values can be adjusted for statistical methods
 
-## 🤝 Contributing
-
-The project is under active development. Suggestions and contributions are welcome.
