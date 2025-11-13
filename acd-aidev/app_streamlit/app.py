@@ -7,8 +7,8 @@ import streamlit as st
 
 API_URL = os.getenv("API_URL", "http://localhost:8000")
 
-st.set_page_config(page_title="SOC Predictor", layout="centered")
-st.title("SOC Tahmini Demo")
+st.set_page_config(page_title="SOC Predictor", layout="centered", page_icon="🔋")
+st.title("🔋 SOC Tahmini Demo")
 
 st.markdown("Basit bir arayüz ile API'ye istek atıp SOC tahmini alın.")
 
